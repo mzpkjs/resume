@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "parcel build index.html --out-dir docs/",
+    "build": "parcel build index.html --out-dir ./docs/ --public-url ./docs/",
     "serve": "parcel index.html"
   },
   "devDependencies": {
