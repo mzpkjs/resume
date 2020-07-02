@@ -1,0 +1,7 @@
+.phone {
+    direction: rtl;
+}
+
+.phone::after {
+    content:  attr(data-phone-no) "\00a0" attr(data-area-code);
+}
