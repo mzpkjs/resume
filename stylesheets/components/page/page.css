@@ -1,0 +1,31 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    margin: 1rem auto 2rem auto;
+    width: 21cm;
+    height: 29.7cm;
+
+    color: var(--color-black);
+    background: var(--color-white);
+
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.0375),
+                0 2px 2px rgba(0, 0, 0, 0.0375),
+                0 4px 4px rgba(0, 0, 0, 0.0125),
+                0 8px 8px rgba(0, 0, 0, 0.0125),
+                0 16px 16px rgba(0, 0, 0, 0.0275);
+}
+
+
+@media print {
+    .page {
+        page-break-after: avoid;
+
+        margin: 0;
+        width: 100%;
+        height: calc(29.7cm - 1px);
+
+        box-shadow: none;
+    }
+}

@@ -1,0 +1,12 @@
+body {
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 12pt;
+
+    background: linear-gradient(to right, rgba(250, 250, 250, 1), rgba(255, 255, 255, 1));
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+}

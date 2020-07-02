@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "serve": "parcel index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "1.12.4",
+    "postcss-modules": "2.0.0",
+    "tslib": "2.0.0",
+    "typescript": "3.9.3"
+  },
+  "dependencies": {
+    "main": "^1000.0.1",
+    "normalize.css": "^8.0.1",
+    "page.css": "0.0.0",
+    "tabler-icons": "1.10.0"
+  }
+}

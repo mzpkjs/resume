@@ -1,0 +1,65 @@
+.column {
+    box-sizing: border-box;
+    flex: 1 0 auto;
+    width: min-content;
+}
+
+.column.one-wide {
+    flex-basis: 8.33333%;
+    max-width: 8.33333%;
+}
+
+.column.two-wide {
+    flex-basis: 16.66667%;
+    max-width: 16.66667%;
+}
+
+.column.three-wide {
+    flex-basis: 25.0%;
+    max-width: 25.0%;
+}
+
+.column.four-wide {
+    flex-basis: 33.33333%;
+    max-width: 33.33333%;
+}
+
+.column.five-wide {
+    flex-basis: 41.66667%;
+    max-width: 41.66667%;
+}
+
+.column.six-wide {
+    flex-basis: 50.0%;
+    max-width: 50.0%;
+}
+
+.column.seven-wide {
+    flex-basis: 58.33333%;
+    max-width: 58.33333%;
+}
+
+.column.eight-wide {
+    flex-basis: 66.66667%;
+    max-width: 66.66667%;
+}
+
+.column.nine-wide {
+    flex-basis: 75.0%;
+    max-width: 75.0%;
+}
+
+.column.ten-wide {
+    flex-basis: 83.33333%;
+    max-width: 83.33333%;
+}
+
+.column.eleven-wide {
+    flex-basis: 91.66667%;
+    max-width: 91.66667%;
+}
+
+.column.twelve-wide {
+    flex-basis: 100.0%;
+    max-width: 100.0%;
+}
