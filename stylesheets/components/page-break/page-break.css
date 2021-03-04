@@ -1,0 +1,9 @@
+.page-break {
+    display: block;
+}
+
+@media print {
+    .page-break {
+        min-height: 1px;
+    }
+}

@@ -4,8 +4,8 @@
     position: relative;
 
     margin: 1rem auto 2rem auto;
-    width: 21cm;
-    height: 29.7cm;
+    width: 210mm;
+    height: 297mm;
 
     color: var(--color-black);
     background: var(--color-white);
@@ -20,14 +20,14 @@
     animation: fade-in 750ms cubic-bezier(0.22, 1, 0.36, 1) forwards 250ms;
 }
 
-
 @media print {
     .page {
         page-break-after: avoid;
 
+        padding: 0;
         margin: 0;
-        width: 100%;
-        height: calc(29.7cm - 1px);
+        width: 210mm;
+        height: 297mm;
 
         box-shadow: none;
     }

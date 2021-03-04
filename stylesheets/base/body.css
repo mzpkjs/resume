@@ -10,3 +10,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
     box-sizing: border-box;
 }
+
+
+@media print {
+    html, body {
+        width: 210mm;
+        height: 297mm;
+    }
+}
