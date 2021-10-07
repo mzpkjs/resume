@@ -2,7 +2,7 @@ body {
     font-family: 'Tenali Ramakrishna', sans-serif;
     font-size: 12pt;
 
-    background: linear-gradient(to right, rgba(250, 250, 250, 1), rgba(255, 255, 255, 1));
+    background: linear-gradient(to right, rgba(250, 250, 250, 1), rgba(230, 232, 245, 1));
 }
 
 * {
