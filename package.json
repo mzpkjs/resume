@@ -1,19 +1,14 @@
 {
   "private": true,
   "scripts": {
-    "build": "parcel build index.html --out-dir ./docs/ --public-url /resume",
-    "serve": "parcel index.html"
+    "build": "vite build --outDir ./docs/ --base /resume",
+    "serve": "vite"
   },
   "devDependencies": {
-    "parcel-bundler": "1.12.4",
-    "postcss-modules": "2.0.0",
-    "tslib": "2.0.0",
-    "typescript": "3.9.3"
+    "vite": "^4.3.9"
   },
   "dependencies": {
     "main": "^1000.0.1",
-    "normalize.css": "^8.0.1",
-    "page.css": "0.0.0",
-    "tabler-icons": "1.10.0"
+    "normalize.css": "^8.0.1"
   }
 }
