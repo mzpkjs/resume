@@ -2,8 +2,9 @@
     flex: 0 1 auto;
     display: block;
 
-    font-size: 8pt;
+    font-size: 7pt;
 
+    margin: 16px 0 4px 0;
     padding: 0 15px 1px 15px;
     color: var(--color-grey-500);
 }
